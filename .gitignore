@@ -8,3 +8,6 @@ data/processed/*
 models/*
 outputs/
 dashboard/*.pbix
+# Local SQLite database
+database/*.db
+database/*.sqlite
