@@ -305,6 +305,7 @@ The scripts above require their corresponding prepared datasets and saved model 
 - The project uses a benchmark dataset rather than live network traffic.
 - Binary classification distinguishes Normal and Attack labels but does not provide a complete multiclass attack identification system.
 - The test results reflect performance on UNSW-NB15 and may not generalize to other networks or newer attack patterns.
+- A data-integrity audit found repeated feature combinations across the training and testing sets, as well as some identical feature combinations associated with different labels. This may affect evaluation on previously unseen traffic and highlights limitations in the supplied dataset labels.
 - The false-positive count indicates that some normal records are incorrectly flagged as attacks.
 - Real-world deployment would require live traffic collection, operational monitoring, security validation, and additional testing.
 
