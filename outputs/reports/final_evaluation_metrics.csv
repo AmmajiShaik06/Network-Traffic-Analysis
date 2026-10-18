@@ -1,0 +1,10 @@
+Metric,Value
+Test records,82332.0
+Accuracy,0.8778
+Attack precision,0.8258
+Attack recall,0.9861
+Attack F1-score,0.8989
+Correctly identified normal records,27571.0
+False alarms,9429.0
+Missed attacks,631.0
+Correctly detected attacks,44701.0

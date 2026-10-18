@@ -6,7 +6,9 @@ __pycache__/
 data/raw/*
 data/processed/*
 models/*
-outputs/
+outputs/*
+!outputs/figures/
+!outputs/reports/
 dashboard/*.pbix
 # Local SQLite database
 database/*.db

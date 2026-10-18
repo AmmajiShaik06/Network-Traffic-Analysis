@@ -1,0 +1,23 @@
+NETWORK TRAFFIC ANALYSIS
+FINAL MODEL EVALUATION
+=============================================
+
+Model: XGBoost
+Dataset: UNSW-NB15 test dataset
+Test records: 82332
+
+              precision    recall  f1-score   support
+
+      Normal       0.98      0.75      0.85     37000
+      Attack       0.83      0.99      0.90     45332
+
+    accuracy                           0.88     82332
+   macro avg       0.90      0.87      0.87     82332
+weighted avg       0.89      0.88      0.87     82332
+
+Confusion matrix:
+[[27571  9429]
+ [  631 44701]]
+
+Rows = actual [Normal, Attack]
+Columns = predicted [Normal, Attack]

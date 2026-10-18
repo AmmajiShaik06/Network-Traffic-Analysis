@@ -1,0 +1,17 @@
+Logistic Regression
+Rows = actual [Normal, Attack]
+Columns = predicted [Normal, Attack]
+[[22243 14757]
+ [ 1237 44095]]
+
+Random Forest
+Rows = actual [Normal, Attack]
+Columns = predicted [Normal, Attack]
+[[26146 10854]
+ [  452 44880]]
+
+XGBoost
+Rows = actual [Normal, Attack]
+Columns = predicted [Normal, Attack]
+[[27571  9429]
+ [  631 44701]]
