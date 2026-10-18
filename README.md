@@ -327,7 +327,6 @@ The scripts above require their corresponding prepared datasets and saved model 
 
 ## Conclusion
 
-This project combines data analytics, SQL, Power BI, and machine learning to analyze network traffic and classify normal and attack records. Comparing three models demonstrated the value of evaluating several performance metrics rather than relying on accuracy alone.
+This project combines exploratory data analysis, SQL, Power BI, and machine learning to analyze network traffic and classify records as Normal or Attack. Comparing Logistic Regression, Random Forest, and XGBoost demonstrated the importance of evaluating multiple metrics rather than relying on accuracy alone.
 
-XGBoost achieved 87.78% accuracy and an 89.89% attack F1-score on the full UNSW-NB15 test dataset. The project provides a foundation for further work in network security analytics and intrusion detection.
-
+XGBoost achieved 87.78% accuracy and an 89.89% attack F1-score on the full UNSW-NB15 test dataset, while Random Forest achieved the highest attack recall at 99.00%. The evaluation also highlighted false-positive risks and dataset integrity limitations. This project provides a foundation for further work in network security analytics and intrusion detection.
