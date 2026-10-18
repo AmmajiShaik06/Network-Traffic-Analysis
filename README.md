@@ -156,6 +156,13 @@ The models were evaluated on the 82,332-record testing dataset.
 | Attack recall | 97.27% | **99.00%** | 98.61% |
 | Attack F1-score | 84.65% | 88.81% | **89.89%** |
 
+#### Model performance visualization
+
+![Model comparison chart showing the performance of Logistic Regression, Random Forest, and XGBoost](outputs/figures/model_comparison.png)
+
+The chart compares the models across the evaluation metrics. XGBoost achieved the highest overall accuracy and attack F1-score, while Random Forest achieved the highest attack recall.
+
+
 ### Selected model
 
 XGBoost achieved the highest overall accuracy and attack F1-score among the three evaluated models.
